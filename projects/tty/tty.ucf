@@ -1,0 +1,126 @@
+NET "RXD" LOC = "U6";
+NET "TXD" LOC = "P9";
+
+NET "LEDS<0>" LOC = "J14";
+NET "LEDS<1>" LOC = "J15";
+NET "LEDS<2>" LOC = "K15";
+NET "LEDS<3>" LOC = "K14";
+NET "LEDS<4>" LOC = "E17";
+NET "LEDS<5>" LOC = "P15";
+NET "LEDS<6>" LOC = "F4";
+NET "LEDS<7>" LOC = "R4";
+
+#NET "RST" LOC = "H13";
+
+NET "CLK" LOC = "B8";
+
+#NET "MEMDATA<0>" LOC = "L1";
+#NET "MEMDATA<1>" LOC = "L4";
+#NET "MEMDATA<2>" LOC = "L6";
+#NET "MEMDATA<3>" LOC = "M4";
+#NET "MEMDATA<4>" LOC = "N5";
+#NET "MEMDATA<5>" LOC = "P1";
+#NET "MEMDATA<6>" LOC = "P2";
+#NET "MEMDATA<7>" LOC = "R2";
+#NET "MEMDATA<8>" LOC = "L3";
+#NET "MEMDATA<9>" LOC = "L5";
+#NET "MEMDATA<10>" LOC = "M3";
+#NET "MEMDATA<11>" LOC = "M6";
+#NET "MEMDATA<12>" LOC = "L2";
+#NET "MEMDATA<13>" LOC = "N4";
+#NET "MEMDATA<14>" LOC = "R3";
+#NET "MEMDATA<15>" LOC = "T1";
+#
+#NET "MEMADDR<1>" LOC = "J1";
+#NET "MEMADDR<2>" LOC = "J2";
+#NET "MEMADDR<3>" LOC = "H4";
+#NET "MEMADDR<4>" LOC = "H1";
+#NET "MEMADDR<5>" LOC = "H2";
+#NET "MEMADDR<6>" LOC = "J5";
+#NET "MEMADDR<7>" LOC = "H3";
+#NET "MEMADDR<8>" LOC = "H6";
+#NET "MEMADDR<9>" LOC = "F1";
+#NET "MEMADDR<10>" LOC = "G3";
+#NET "MEMADDR<11>" LOC = "G6";
+#NET "MEMADDR<12>" LOC = "G5";
+#NET "MEMADDR<13>" LOC = "G4";
+#NET "MEMADDR<14>" LOC = "F2";
+#NET "MEMADDR<15>" LOC = "E1";
+#NET "MEMADDR<16>" LOC = "M5";
+#NET "MEMADDR<17>" LOC = "E2";
+#NET "MEMADDR<18>" LOC = "C2";
+#NET "MEMADDR<19>" LOC = "C1";
+#NET "MEMADDR<20>" LOC = "D2";
+#NET "MEMADDR<21>" LOC = "K3";
+#NET "MEMADDR<22>" LOC = "D1";
+#NET "MEMADDR<23>" LOC = "K6";
+#
+#NET "MEMOE" LOC = "T2";		# Output enabled
+#NET "MEMWE" LOC = "N7";     # Write enabled
+#
+#NET "ROMCE" LOC = "R6";		# Chip enabled
+#NET "ROMUB"	 LOC = "K4";	# Write to upper byte
+#NET "ROMLB"  LOC = "K5";	# write to lower byte
+#NET "ROMADV" LOC = "J4";	# Adress valid
+#
+#NET "ROMCLK"  LOC = "H5";
+#NET "ROMCRE"  LOC = "P7";
+#NET "ROMWAIT" LOC = "F5";
+
+
+
+
+
+NET "sri_data<0>" LOC = "L1";
+NET "sri_data<1>" LOC = "L4";
+NET "sri_data<2>" LOC = "L6";
+NET "sri_data<3>" LOC = "M4";
+NET "sri_data<4>" LOC = "N5";
+NET "sri_data<5>" LOC = "P1";
+NET "sri_data<6>" LOC = "P2";
+NET "sri_data<7>" LOC = "R2";
+NET "sri_data<8>" LOC = "L3";
+NET "sri_data<9>" LOC = "L5";
+NET "sri_data<10>" LOC = "M3";
+NET "sri_data<11>" LOC = "M6";
+NET "sri_data<12>" LOC = "L2";
+NET "sri_data<13>" LOC = "N4";
+NET "sri_data<14>" LOC = "R3";
+NET "sri_data<15>" LOC = "T1";
+
+NET "sri_adr<1>" LOC = "J1";
+NET "sri_adr<2>" LOC = "J2";
+NET "sri_adr<3>" LOC = "H4";
+NET "sri_adr<4>" LOC = "H1";
+NET "sri_adr<5>" LOC = "H2";
+NET "sri_adr<6>" LOC = "J5";
+NET "sri_adr<7>" LOC = "H3";
+NET "sri_adr<8>" LOC = "H6";
+NET "sri_adr<9>" LOC = "F1";
+NET "sri_adr<10>" LOC = "G3";
+NET "sri_adr<11>" LOC = "G6";
+NET "sri_adr<12>" LOC = "G5";
+NET "sri_adr<13>" LOC = "G4";
+NET "sri_adr<14>" LOC = "F2";
+NET "sri_adr<15>" LOC = "E1";
+NET "sri_adr<16>" LOC = "M5";
+NET "sri_adr<17>" LOC = "E2";
+NET "sri_adr<18>" LOC = "C2";
+NET "sri_adr<19>" LOC = "C1";
+NET "sri_adr<20>" LOC = "D2";
+NET "sri_adr<21>" LOC = "K3";
+NET "sri_adr<22>" LOC = "D1";
+NET "sri_adr<23>" LOC = "K6";
+
+NET "sri_oe" LOC = "T2";		# Output enabled
+NET "sri_we" LOC = "N7";     # Write enabled
+NET "sri_we" LOC = "N7";     # Write enabled
+
+NET "sri_cs" LOC = "R6";		# Chip enabled
+NET "sri_ub"	 LOC = "K4";	# Write to upper byte
+NET "sri_lb"  LOC = "K5";	# write to lower byte
+NET "sri_adv" LOC = "J4";	# Adress valid
+
+NET "sri_clk"  LOC = "H5";
+NET "sri_cre"  LOC = "P7";
+NET "sri_wait" LOC = "F5";
