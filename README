@@ -1,0 +1,13 @@
+Brainfuck-Processor
+===================
+
+The goal of this project is to create a processor able to execute Brainfuck.
+Written in VHDL for a FPGA it is not suppost to interpret Brainfuck but to
+actually execute it as bytecode, much like an Intel Processor executes Assembler.
+
+Due to our noobness in hardware programming the code is neither nice, clean or working.
+It is a pain to use memory if you have to build a state mashine to acces it.
+But hardware people do know how to write documentation, maybe not good ones but
+they are really really long and full of information.
+
+All info available to us is checked in with the project.
